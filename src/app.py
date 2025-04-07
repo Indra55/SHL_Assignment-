@@ -119,7 +119,7 @@ def main():
 
     try:
         embedder = ProductEmbeddings()
-        products_path = src_path / "scraper" / "shl_products.json"
+        products_path = src_path / "data" / "shl_products.json"
         embedder.load_products(str(products_path))
         
         index_path = src_path / "embeddings" / "products.index"
