@@ -6,5 +6,5 @@ transformers
 scikit-learn
 faiss-cpu
 numpy
-google-generativeai
+google-genai
 typing-extensions
