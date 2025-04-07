@@ -10,7 +10,7 @@ root_dir = Path(__file__).resolve().parent.parent
 sys.path.append(str(root_dir))
 
 from src.embeddings.product_embeddings import ProductEmbeddings
-from .app import (
+from src.utils.helper import (
     get_graded_relevance,
     graded_recall_at_k,
     graded_average_precision,
