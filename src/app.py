@@ -6,7 +6,9 @@ import sys
 from pathlib import Path
 import markdown
 from typing import List, Set, Dict
+from huggingface_hub import login
 
+login(st.secrets["token"])
 try:
     project_root = Path(__file__).resolve().parent.parent
     src_path = project_root / "src"
